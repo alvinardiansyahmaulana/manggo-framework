@@ -1,0 +1,51 @@
+{
+    "name": "gopin/manggo-framework",
+    "keywords": ["framework", "manggo"],
+    "description": "The Manggo Framework",
+    "require": {
+        "php": "^8.1",
+        "ext-mbstring": "*",
+        "ext-openssl": "*",
+        "doctrine/inflector": "^2.0",
+        "egulias/email-validator": "^3.0",
+        "fruitcake/php-cors": "^1.2",
+        "league/flysystem": "^3.0",
+        "monolog/monolog": "^3.0",
+        "nesbot/carbon": "^3.0",
+        "nunomaduro/termwind": "^1.13",
+        "psr/container": "^2.0",
+        "psr/log": "^3.0",
+        "psr/simple-cache": "^3.0",
+        "ramsey/uuid": "^5.0",
+        "symfony/console": "^6.2",
+        "symfony/error-handler": "^6.2",
+        "symfony/finder": "^6.2",
+        "symfony/http-foundation": "^6.2",
+        "symfony/http-kernel": "^6.2",
+        "symfony/mime": "^6.2",
+        "symfony/process": "^6.0",
+        "symfony/routing": "^6.0",
+        "symfony/var-dumper": "^6.0",
+        "vlucas/phpdotenv": "^5.4.1",
+        "voku/portable-ascii": "^2.0"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.9.2",
+        "guzzlehttp/guzzle": "^7.2",
+        "mockery/mockery": "^1.4.4",
+        "symfony/cache": "^6.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Blaze\\": "src/Blaze/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alvin Ardiansyah Maulana",
+            "email": "alvinardiansyahmaulana@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
